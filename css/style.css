@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto";
+    font-size: 1em;
+    color: #757575;
+}
+
+.center-block {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.main-background {
+    position: relative;
+    height: 100vh;
+    background: url(../img/moscow-photo-01.jpg) 0 0 / 100% 100% no-repeat;
+}
+
+.header {
+    color: #fff;
+}
+
+.navigation-hotline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 29.45px 0;
+    border-bottom: 1px solid #8795a9;
+}
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 13px;
+    margin-right: 5px;
+    transition: all .1s linear;
+}
+
+.navigation ul li a:last-child {
+    margin-right: 0;
+}
+
+.navigation ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.208);
+    border-radius: 20px 0 20px 0;
+}
+
+.hotline {
+    margin-right: 12px;
+}
+
+.hotline img {
+    vertical-align: middle;
+    margin-right: 11px;
+}
+
+.hotline a {
+    color: #fff;
+    text-decoration: underline;
+    transition: text-decoration .1s linear;
+}
+
+.hotline a:hover {
+    text-decoration: none;
+}
+
+.plan-your-trip-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.plan-your-trip-block > h1 {
+    font-size: 4.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.plan-your-trip-block > p {
+    font-size: 1.25em;
+    font-weight: 500;
+    margin-bottom: 34px;
+}
+
+.plan-your-trip-block > a {
+    display: inline-block;
+    padding: 19px 58px;
+    color: #fff;
+    background-color: #fbad27;
+    border-radius: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background-color .1s linear;
+}
+
+.plan-your-trip-block > a:hover {
+    background-color: #b67c18;
+}
+
+@media screen and (max-width: 863px) {
+    .plan-your-trip-block > h1 {
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .navigation-hotline {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main-background {
+        background: url(../img/moscow-photo-01.jpg) 0 0 / 100% 100%  no-repeat;
+    }
+
+    .plan-your-trip-block > h1 {
+        font-size: 3.5em;
+    }
+}
+
+@media screen and (max-width: 688px) {
+    .main-background {
+        background: url(../img/moscow-photo-01.jpg) 0 0 / auto 100%  no-repeat;
+    }
+}
+
+@media screen and (max-width: 671px) {
+    .plan-your-trip-block > h1 {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .plan-your-trip-block > h1 {
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 558px) {
+    .navigation {
+        text-align: center;
+    }
+
+    .navigation ul li a {
+        padding: 5px 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .plan-your-trip-block > h1 {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .plan-your-trip-block > a {
+        padding: 15px 30px;
+        border-radius: 40px;
+    }
+}
+
+@media screen and (max-width: 323px) {
+    .plan-your-trip-block > a {
+        padding: 10px 20px;
+    }
+}
